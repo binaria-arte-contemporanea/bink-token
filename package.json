@@ -1,0 +1,39 @@
+{
+  "name": "bink-blockchain-framework",
+  "version": "1.0.0",
+  "description": "Bink é um projeto desenvolvido pela Galeria Binaria Arte Contemporânea.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.4.1",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.4.24"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "quick-start": "./scripts/quick-start.sh",
+    "console": "./node_modules/.bin/truffle console",
+    "compile": "./node_modules/.bin/truffle compile | tee ./log/compile.log",
+    "deploy-local": "./node_modules/.bin/truffle migrate | tee ./log/deploy-local.log",
+    "ganache": "./scripts/ganache.sh | tee ./log/ganache.log",
+    "ganache-clean": "./node_modules/.bin/ganache-cli | tee ./log/ganache.log",
+    "deploy-testnet": "./node_modules/.bin/truffle migrate --network testnet | tee ./log/deploy-testnet.log",
+    "deploy-mainnet": "./node_modules/.bin/truffle migrate --network mainnet | tee ./log/deploy-mainnet.log",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binaria-arte-contemporanea/bink-blockchain-framework.git"
+  },
+  "author": "Binaria Arte Contemporânea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binaria-arte-contemporanea/bink-blockchain-framework/issues"
+  },
+  "homepage": "https://github.com/binaria-arte-contemporanea/bink-blockchain-framework#readme"
+}
