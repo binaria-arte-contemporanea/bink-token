@@ -1,7 +1,7 @@
 {
-  "name": "bink-blockchain-framework",
+  "name": "bink-token",
   "version": "1.0.0",
-  "description": "Bink é um projeto desenvolvido pela Galeria Binaria Arte Contemporânea.",
+  "description": "Bink Token ART$",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binaria-arte-contemporanea/bink-blockchain-framework.git"
+    "url": "git+https://github.com/binaria-arte-contemporanea/bink-token.git"
   },
   "author": "Binaria Arte Contemporânea",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/binaria-arte-contemporanea/bink-blockchain-framework/issues"
+    "url": "https://github.com/binaria-arte-contemporanea/bink-token/issues"
   },
-  "homepage": "https://github.com/binaria-arte-contemporanea/bink-blockchain-framework#readme"
+  "homepage": "https://github.com/binaria-arte-contemporanea/bink-token#readme"
 }
